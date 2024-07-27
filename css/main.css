@@ -104,7 +104,7 @@ body {
     font-size: 0.8rem;
 }
 
-.italic-strong {
+.italic {
     font-style: italic;
 }
 
@@ -116,3 +116,13 @@ body {
     font-family: var(--lemon-milk);
     font-weight: normal;
 }
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--background-black);
+    color: var(--text-white);
+    width: 100%;
+}
+
