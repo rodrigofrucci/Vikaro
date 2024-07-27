@@ -1,3 +1,5 @@
+
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 @font-face {
@@ -24,6 +26,8 @@
 :root {
     --lemon-milk: 'LEMONMILK', sans-serif;
     --montserrat: 'Montserrat', sans-serif;
+    --background-black: #060606;
+    --text-white: #ffffff
 }
 
 * {
@@ -36,4 +40,79 @@ body {
     min-height: 100vh;
 }
 
+.title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--background-black);
+    color: var(--text-white);
+    width: 100%;
+}
 
+.title-container__year-time {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.title-container__phrases {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px 20px 20px;
+    width: 100%;
+}
+
+.title-container__end-phrase {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 0 20px 20px 20px;
+    width: 100%;
+    text-align: end;
+}
+
+.title-container__main-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px 20px 20px;
+    width: 100%;
+}
+
+.main-title {
+    width: 100%;
+    margin: 40px 20px 20px 20px;
+}
+
+.subtitle {
+    font-family: var(--lemon-milk);
+    font-weight: bold;
+    font-size: 2.5rem;
+    line-height: 40px;
+}
+
+.end-text {
+    text-align: end;
+}
+
+.paragraph {
+    font-family: var(--lemon-milk);
+    font-weight: normal;
+    font-size: 0.8rem;
+}
+
+.italic-strong {
+    font-style: italic;
+}
+
+.montserrat {
+    font-family: var(--montserrat);
+}
+
+.lemon-milk {
+    font-family: var(--lemon-milk);
+    font-weight: normal;
+}
