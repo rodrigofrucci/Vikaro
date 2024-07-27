@@ -110,7 +110,7 @@ a {
     font-size: 0.8rem;
 }
 
-.italic-strong {
+.italic {
     font-style: italic;
 }
 
@@ -122,6 +122,7 @@ a {
     font-family: var(--lemon-milk);
     font-weight: normal;
 }
+
 
 .header {
     padding: 20px;
@@ -168,3 +169,14 @@ a {
     background-color: white;
     color: #060606;
 }
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--background-black);
+    color: var(--text-white);
+    width: 100%;
+}
+
+
