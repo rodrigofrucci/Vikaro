@@ -32,21 +32,8 @@
     box-sizing: border-box;  
 }
 
-h1 {
-    font-family: var(--lemon-milk);
-    font-weight: normal;
+body {
+    min-height: 100vh;
 }
 
-h2 {
-    font-family: var(--lemon-milk);
-    font-style: italic;
-}
 
-h3 {
-    font-family: var(--lemon-milk);
-    font-weight: bold;
-}
-
-p {
-    font-family: var(--montserrat);
-}
