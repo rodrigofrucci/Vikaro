@@ -179,4 +179,59 @@ a {
     width: 100%;
 }
 
+.about-container__text {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.about-container__items {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 40px 20px;
+    width: 100%;
+}
+
+.upper {
+    text-transform: uppercase;
+    padding: 0 0 1rem 0;
+}
+
+.clients {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25%;
+}
+
+.clients__texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Garantir que os textos estejam no final do contêiner */
+}
+
+.clients__strong {
+    font-size: 50px;
+    font-family: var(--lemon-milk);
+}
+
+.clients__number {
+    align-self: flex-start;
+    text-align: end;
+    line-height: 25px;
+    margin-top: 7px;
+}
+
+.montserrat-regular {
+    font-family: var(--montserrat);
+    font-weight: 400;
+    line-height: 30px;
+    
+}
+
+
+
+
 
