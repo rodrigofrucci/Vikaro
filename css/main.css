@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: 'LEMONMILK';
+    src: url('/assets/fonts/LEMONMILK-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LEMONMILK';
+    src: url('fonts/LEMONMILK-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LEMONMILK';
+    src: url('fonts/LEMONMILK-Italic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+:root {
+    --lemon-milk: 'LEMONMILK', sans-serif;
+    --montserrat: 'Montserrat', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+h1 {
+    font-family: var(--lemon-milk);
+    font-weight: normal;
+}
+
+h2 {
+    font-family: var(--lemon-milk);
+    font-style: italic;
+}
+
+h3 {
+    font-family: var(--lemon-milk);
+    font-weight: bold;
+}
+
+p {
+    font-family: var(--montserrat);
+}
