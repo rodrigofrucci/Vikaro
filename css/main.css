@@ -116,3 +116,22 @@ body {
     font-family: var(--lemon-milk);
     font-weight: normal;
 }
+
+.banner {
+    background-image: url(../img/Banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding: 20px;
+}
+
+.banner__items {
+    display: flex;
+    justify-content: space-between;
+    color: var(--text-white);
+    font-family: var(--lemon-milk);
+    font-size: 24px;
+    font-weight: bold;
+    line-height: normal;
+    text-transform: uppercase;
+}
